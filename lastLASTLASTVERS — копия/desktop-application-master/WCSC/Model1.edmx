@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище scalesModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DataByDays">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ScalesNumberID" Type="int" />
+          <Property Name="Weight" Type="float" />
+          <Property Name="Productivity" Type="float" />
+          <Property Name="Date" Type="date" />
+        </EntityType>
+        <EntityType Name="DataByHours">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ScalesNumberID" Type="int" />
+          <Property Name="Weight" Type="float" />
+          <Property Name="Productivity" Type="float" />
+          <Property Name="Time" Type="time" Precision="7" />
+          <Property Name="Date" Type="date" />
+          <Property Name="ShiftNumber" Type="int" />
+        </EntityType>
+        <EntityType Name="DataByMonth">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ScalesNumberID" Type="int" />
+          <Property Name="Weight" Type="float" />
+          <Property Name="Productivity" Type="float" />
+          <Property Name="NumberMonth" Type="int" />
+        </EntityType>
+        <EntityType Name="DataByShift">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ShiftNumber" Type="int" />
+          <Property Name="ScalesNumberID" Type="int" />
+          <Property Name="Weight" Type="float" />
+          <Property Name="Productivity" Type="float" />
+          <Property Name="StartTime" Type="datetime" />
+          <Property Name="EndTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="MeasurementData">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ScalesNumberID" Type="int" />
+          <Property Name="CurrentWeight" Type="float" />
+          <Property Name="CurrentProductivity" Type="float" />
+          <Property Name="TimeOfMeasurement" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Personal">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="Role" Type="int" />
+        </EntityType>
+        <EntityType Name="ScalesInformation">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Scales_Number" Type="nvarchar" MaxLength="50" />
+          <Property Name="Max_Productivity" Type="float" />
+          <Property Name="IPaddress" Type="nvarchar" MaxLength="50" />
+          <Property Name="ModbusID" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_DataByDays_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="DataByDays" Type="Self.DataByDays" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DataByDays">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DataByHours_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="DataByHours" Type="Self.DataByHours" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DataByHours">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DataByMonth_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="DataByMonth" Type="Self.DataByMonth" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DataByMonth">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MeasurementData_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="MeasurementData" Type="Self.MeasurementData" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MeasurementData">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ShiftData_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="DataByShift" Type="Self.DataByShift" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DataByShift">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище scalesModelContainer">
+          <EntitySet Name="DataByDays" EntityType="Self.DataByDays" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DataByHours" EntityType="Self.DataByHours" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DataByMonth" EntityType="Self.DataByMonth" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DataByShift" EntityType="Self.DataByShift" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MeasurementData" EntityType="Self.MeasurementData" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Personal" EntityType="Self.Personal" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ScalesInformation" EntityType="Self.ScalesInformation" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_DataByDays_ScalesInformation" Association="Self.FK_DataByDays_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="DataByDays" EntitySet="DataByDays" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DataByHours_ScalesInformation" Association="Self.FK_DataByHours_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="DataByHours" EntitySet="DataByHours" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DataByMonth_ScalesInformation" Association="Self.FK_DataByMonth_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="DataByMonth" EntitySet="DataByMonth" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MeasurementData_ScalesInformation" Association="Self.FK_MeasurementData_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="MeasurementData" EntitySet="MeasurementData" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ShiftData_ScalesInformation" Association="Self.FK_ShiftData_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="DataByShift" EntitySet="DataByShift" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="scalesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DataByDays">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ScalesNumberID" Type="Int32" />
+          <Property Name="Weight" Type="Double" />
+          <Property Name="Productivity" Type="Double" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_DataByDays_ScalesInformation" FromRole="DataByDays" ToRole="ScalesInformation" />
+        </EntityType>
+        <EntityType Name="DataByHours">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ScalesNumberID" Type="Int32" />
+          <Property Name="Weight" Type="Double" />
+          <Property Name="Productivity" Type="Double" />
+          <Property Name="Time" Type="Time" Precision="7" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
+          <Property Name="ShiftNumber" Type="Int32" />
+          <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_DataByHours_ScalesInformation" FromRole="DataByHours" ToRole="ScalesInformation" />
+        </EntityType>
+        <EntityType Name="DataByMonth">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ScalesNumberID" Type="Int32" />
+          <Property Name="Weight" Type="Double" />
+          <Property Name="Productivity" Type="Double" />
+          <Property Name="NumberMonth" Type="Int32" />
+          <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_DataByMonth_ScalesInformation" FromRole="DataByMonth" ToRole="ScalesInformation" />
+        </EntityType>
+        <EntityType Name="DataByShift">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ShiftNumber" Type="Int32" />
+          <Property Name="ScalesNumberID" Type="Int32" />
+          <Property Name="Weight" Type="Double" />
+          <Property Name="Productivity" Type="Double" />
+          <Property Name="StartTime" Type="DateTime" Precision="3" />
+          <Property Name="EndTime" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_ShiftData_ScalesInformation" FromRole="DataByShift" ToRole="ScalesInformation" />
+        </EntityType>
+        <EntityType Name="MeasurementData">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ScalesNumberID" Type="Int32" />
+          <Property Name="CurrentWeight" Type="Double" />
+          <Property Name="CurrentProductivity" Type="Double" />
+          <Property Name="TimeOfMeasurement" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_MeasurementData_ScalesInformation" FromRole="MeasurementData" ToRole="ScalesInformation" />
+        </EntityType>
+        <EntityType Name="Personal">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Role" Type="Int32" />
+        </EntityType>
+        <EntityType Name="ScalesInformation">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Scales_Number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Max_Productivity" Type="Double" />
+          <Property Name="IPaddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ModbusID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="DataByDays" Relationship="Self.FK_DataByDays_ScalesInformation" FromRole="ScalesInformation" ToRole="DataByDays" />
+          <NavigationProperty Name="DataByHours" Relationship="Self.FK_DataByHours_ScalesInformation" FromRole="ScalesInformation" ToRole="DataByHours" />
+          <NavigationProperty Name="DataByMonth" Relationship="Self.FK_DataByMonth_ScalesInformation" FromRole="ScalesInformation" ToRole="DataByMonth" />
+          <NavigationProperty Name="DataByShift" Relationship="Self.FK_ShiftData_ScalesInformation" FromRole="ScalesInformation" ToRole="DataByShift" />
+          <NavigationProperty Name="MeasurementData" Relationship="Self.FK_MeasurementData_ScalesInformation" FromRole="ScalesInformation" ToRole="MeasurementData" />
+        </EntityType>
+        <Association Name="FK_DataByDays_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="DataByDays" Type="Self.DataByDays" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DataByDays">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DataByHours_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="DataByHours" Type="Self.DataByHours" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DataByHours">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DataByMonth_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="DataByMonth" Type="Self.DataByMonth" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DataByMonth">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ShiftData_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="DataByShift" Type="Self.DataByShift" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DataByShift">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MeasurementData_ScalesInformation">
+          <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+          <End Role="MeasurementData" Type="Self.MeasurementData" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScalesInformation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MeasurementData">
+              <PropertyRef Name="ScalesNumberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="scalesEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DataByDays" EntityType="Self.DataByDays" />
+          <EntitySet Name="DataByHours" EntityType="Self.DataByHours" />
+          <EntitySet Name="DataByMonth" EntityType="Self.DataByMonth" />
+          <EntitySet Name="DataByShift" EntityType="Self.DataByShift" />
+          <EntitySet Name="MeasurementData" EntityType="Self.MeasurementData" />
+          <EntitySet Name="Personal" EntityType="Self.Personal" />
+          <EntitySet Name="ScalesInformation" EntityType="Self.ScalesInformation" />
+          <AssociationSet Name="FK_DataByDays_ScalesInformation" Association="Self.FK_DataByDays_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="DataByDays" EntitySet="DataByDays" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DataByHours_ScalesInformation" Association="Self.FK_DataByHours_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="DataByHours" EntitySet="DataByHours" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DataByMonth_ScalesInformation" Association="Self.FK_DataByMonth_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="DataByMonth" EntitySet="DataByMonth" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ShiftData_ScalesInformation" Association="Self.FK_ShiftData_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="DataByShift" EntitySet="DataByShift" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MeasurementData_ScalesInformation" Association="Self.FK_MeasurementData_ScalesInformation">
+            <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+            <End Role="MeasurementData" EntitySet="MeasurementData" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище scalesModelContainer" CdmEntityContainer="scalesEntities2">
+          <EntitySetMapping Name="DataByDays">
+            <EntityTypeMapping TypeName="scalesModel.DataByDays">
+              <MappingFragment StoreEntitySet="DataByDays">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+                <ScalarProperty Name="Weight" ColumnName="Weight" />
+                <ScalarProperty Name="Productivity" ColumnName="Productivity" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DataByHours">
+            <EntityTypeMapping TypeName="scalesModel.DataByHours">
+              <MappingFragment StoreEntitySet="DataByHours">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+                <ScalarProperty Name="Weight" ColumnName="Weight" />
+                <ScalarProperty Name="Productivity" ColumnName="Productivity" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="ShiftNumber" ColumnName="ShiftNumber" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DataByMonth">
+            <EntityTypeMapping TypeName="scalesModel.DataByMonth">
+              <MappingFragment StoreEntitySet="DataByMonth">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+                <ScalarProperty Name="Weight" ColumnName="Weight" />
+                <ScalarProperty Name="Productivity" ColumnName="Productivity" />
+                <ScalarProperty Name="NumberMonth" ColumnName="NumberMonth" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DataByShift">
+            <EntityTypeMapping TypeName="scalesModel.DataByShift">
+              <MappingFragment StoreEntitySet="DataByShift">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ShiftNumber" ColumnName="ShiftNumber" />
+                <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+                <ScalarProperty Name="Weight" ColumnName="Weight" />
+                <ScalarProperty Name="Productivity" ColumnName="Productivity" />
+                <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+                <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MeasurementData">
+            <EntityTypeMapping TypeName="scalesModel.MeasurementData">
+              <MappingFragment StoreEntitySet="MeasurementData">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+                <ScalarProperty Name="CurrentWeight" ColumnName="CurrentWeight" />
+                <ScalarProperty Name="CurrentProductivity" ColumnName="CurrentProductivity" />
+                <ScalarProperty Name="TimeOfMeasurement" ColumnName="TimeOfMeasurement" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Personal">
+            <EntityTypeMapping TypeName="scalesModel.Personal">
+              <MappingFragment StoreEntitySet="Personal">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ScalesInformation">
+            <EntityTypeMapping TypeName="scalesModel.ScalesInformation">
+              <MappingFragment StoreEntitySet="ScalesInformation">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Scales_Number" ColumnName="Scales_Number" />
+                <ScalarProperty Name="Max_Productivity" ColumnName="Max_Productivity" />
+                <ScalarProperty Name="IPaddress" ColumnName="IPaddress" />
+                <ScalarProperty Name="ModbusID" ColumnName="ModbusID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

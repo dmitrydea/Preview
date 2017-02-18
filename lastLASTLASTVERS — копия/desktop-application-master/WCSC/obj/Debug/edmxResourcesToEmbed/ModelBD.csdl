@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="scalesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DataByDays">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Weight" Type="Double" />
+    <Property Name="ScaleNumberID" Type="Int32" />
+    <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_DataByDays_ScalesInformation" FromRole="DataByDays" ToRole="ScalesInformation" />
+  </EntityType>
+  <EntityType Name="DataByHours">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ScalesNumberID" Type="Int32" />
+    <Property Name="Weight" Type="Double" />
+    <Property Name="Time" Type="Time" Precision="7" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_DataByHours_ScalesInformation" FromRole="DataByHours" ToRole="ScalesInformation" />
+  </EntityType>
+  <EntityType Name="DataByMonth">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ScalesNumberID" Type="Int32" />
+    <Property Name="Weight" Type="Double" />
+    <Property Name="NumberMonth" Type="Int32" />
+    <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_DataByMonth_ScalesInformation" FromRole="DataByMonth" ToRole="ScalesInformation" />
+  </EntityType>
+  <EntityType Name="DataByShift">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ShiftNumber" Type="Int32" />
+    <Property Name="ScalesNumberID" Type="Int32" />
+    <Property Name="Weight" Type="Double" />
+    <Property Name="StartTime" Type="DateTime" Precision="3" />
+    <Property Name="EndTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_ShiftData_ScalesInformation" FromRole="DataByShift" ToRole="ScalesInformation" />
+  </EntityType>
+  <EntityType Name="MeasurementData">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ScalesNumberID" Type="Int32" />
+    <Property Name="CurrentSpeed" Type="Double" />
+    <Property Name="CurrentWeight" Type="Double" />
+    <Property Name="CurrentProductivity" Type="Double" />
+    <Property Name="TimeOfMeasurement" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ScalesInformation" Relationship="Self.FK_MeasurementData_ScalesInformation" FromRole="MeasurementData" ToRole="ScalesInformation" />
+  </EntityType>
+  <EntityType Name="ScalesInformation">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Scales_Number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Max_Productivity" Type="Double" />
+    <Property Name="IPaddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModbusID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DataByDays" Relationship="Self.FK_DataByDays_ScalesInformation" FromRole="ScalesInformation" ToRole="DataByDays" />
+    <NavigationProperty Name="DataByHours" Relationship="Self.FK_DataByHours_ScalesInformation" FromRole="ScalesInformation" ToRole="DataByHours" />
+    <NavigationProperty Name="DataByMonth" Relationship="Self.FK_DataByMonth_ScalesInformation" FromRole="ScalesInformation" ToRole="DataByMonth" />
+    <NavigationProperty Name="DataByShift" Relationship="Self.FK_ShiftData_ScalesInformation" FromRole="ScalesInformation" ToRole="DataByShift" />
+    <NavigationProperty Name="MeasurementData" Relationship="Self.FK_MeasurementData_ScalesInformation" FromRole="ScalesInformation" ToRole="MeasurementData" />
+  </EntityType>
+  <Association Name="FK_DataByDays_ScalesInformation">
+    <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+    <End Role="DataByDays" Type="Self.DataByDays" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScalesInformation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DataByDays">
+        <PropertyRef Name="ScaleNumberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataByHours_ScalesInformation">
+    <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+    <End Role="DataByHours" Type="Self.DataByHours" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScalesInformation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DataByHours">
+        <PropertyRef Name="ScalesNumberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataByMonth_ScalesInformation">
+    <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+    <End Role="DataByMonth" Type="Self.DataByMonth" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScalesInformation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DataByMonth">
+        <PropertyRef Name="ScalesNumberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShiftData_ScalesInformation">
+    <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+    <End Role="DataByShift" Type="Self.DataByShift" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScalesInformation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DataByShift">
+        <PropertyRef Name="ScalesNumberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MeasurementData_ScalesInformation">
+    <End Role="ScalesInformation" Type="Self.ScalesInformation" Multiplicity="0..1" />
+    <End Role="MeasurementData" Type="Self.MeasurementData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScalesInformation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MeasurementData">
+        <PropertyRef Name="ScalesNumberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="scalesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DataByDays" EntityType="Self.DataByDays" />
+    <EntitySet Name="DataByHours" EntityType="Self.DataByHours" />
+    <EntitySet Name="DataByMonth" EntityType="Self.DataByMonth" />
+    <EntitySet Name="DataByShift" EntityType="Self.DataByShift" />
+    <EntitySet Name="MeasurementData" EntityType="Self.MeasurementData" />
+    <EntitySet Name="ScalesInformation" EntityType="Self.ScalesInformation" />
+    <AssociationSet Name="FK_DataByDays_ScalesInformation" Association="Self.FK_DataByDays_ScalesInformation">
+      <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+      <End Role="DataByDays" EntitySet="DataByDays" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataByHours_ScalesInformation" Association="Self.FK_DataByHours_ScalesInformation">
+      <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+      <End Role="DataByHours" EntitySet="DataByHours" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataByMonth_ScalesInformation" Association="Self.FK_DataByMonth_ScalesInformation">
+      <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+      <End Role="DataByMonth" EntitySet="DataByMonth" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShiftData_ScalesInformation" Association="Self.FK_ShiftData_ScalesInformation">
+      <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+      <End Role="DataByShift" EntitySet="DataByShift" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MeasurementData_ScalesInformation" Association="Self.FK_MeasurementData_ScalesInformation">
+      <End Role="ScalesInformation" EntitySet="ScalesInformation" />
+      <End Role="MeasurementData" EntitySet="MeasurementData" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

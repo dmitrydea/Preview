@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище scalesModelContainer" CdmEntityContainer="scalesEntities2">
+    <EntitySetMapping Name="DataByDays">
+      <EntityTypeMapping TypeName="scalesModel.DataByDays">
+        <MappingFragment StoreEntitySet="DataByDays">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Productivity" ColumnName="Productivity" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DataByHours">
+      <EntityTypeMapping TypeName="scalesModel.DataByHours">
+        <MappingFragment StoreEntitySet="DataByHours">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Productivity" ColumnName="Productivity" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ShiftNumber" ColumnName="ShiftNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DataByMonth">
+      <EntityTypeMapping TypeName="scalesModel.DataByMonth">
+        <MappingFragment StoreEntitySet="DataByMonth">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Productivity" ColumnName="Productivity" />
+          <ScalarProperty Name="NumberMonth" ColumnName="NumberMonth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DataByShift">
+      <EntityTypeMapping TypeName="scalesModel.DataByShift">
+        <MappingFragment StoreEntitySet="DataByShift">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ShiftNumber" ColumnName="ShiftNumber" />
+          <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Productivity" ColumnName="Productivity" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeasurementData">
+      <EntityTypeMapping TypeName="scalesModel.MeasurementData">
+        <MappingFragment StoreEntitySet="MeasurementData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ScalesNumberID" ColumnName="ScalesNumberID" />
+          <ScalarProperty Name="CurrentWeight" ColumnName="CurrentWeight" />
+          <ScalarProperty Name="CurrentProductivity" ColumnName="CurrentProductivity" />
+          <ScalarProperty Name="TimeOfMeasurement" ColumnName="TimeOfMeasurement" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personal">
+      <EntityTypeMapping TypeName="scalesModel.Personal">
+        <MappingFragment StoreEntitySet="Personal">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScalesInformation">
+      <EntityTypeMapping TypeName="scalesModel.ScalesInformation">
+        <MappingFragment StoreEntitySet="ScalesInformation">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Scales_Number" ColumnName="Scales_Number" />
+          <ScalarProperty Name="Max_Productivity" ColumnName="Max_Productivity" />
+          <ScalarProperty Name="IPaddress" ColumnName="IPaddress" />
+          <ScalarProperty Name="ModbusID" ColumnName="ModbusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

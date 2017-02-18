@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="25064df6809346788fa58a9761c0ae9c" Name="Diagram1">
+        <EntityTypeShape EntityType="scalesModel.DataByDays" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="scalesModel.DataByHours" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="scalesModel.DataByMonth" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="scalesModel.DataByShift" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="scalesModel.MeasurementData" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="scalesModel.Personal" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="scalesModel.ScalesInformation" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="scalesModel.FK_DataByDays_ScalesInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="scalesModel.FK_DataByHours_ScalesInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="scalesModel.FK_DataByMonth_ScalesInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="scalesModel.FK_ShiftData_ScalesInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="scalesModel.FK_MeasurementData_ScalesInformation" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

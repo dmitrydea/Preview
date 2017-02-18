@@ -1,0 +1,413 @@
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\WCSC.exe.config
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\WCSC.exe
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\WCSC.pdb
+C:\Users\Димка\Desktop\WCSC\WCSC\obj\Debug\WCSC.Form1.resources
+C:\Users\Димка\Desktop\WCSC\WCSC\obj\Debug\WCSC.Properties.Resources.resources
+C:\Users\Димка\Desktop\WCSC\WCSC\obj\Debug\WCSC.csproj.GenerateResource.Cache
+C:\Users\Димка\Desktop\WCSC\WCSC\obj\Debug\WCSC.exe
+C:\Users\Димка\Desktop\WCSC\WCSC\obj\Debug\WCSC.pdb
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\LiveCharts.dll
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\LiveCharts.pdb
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\LiveCharts.xml
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Димка\Desktop\WCSC\WCSC\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Димка\Desktop\WCSC\WCSC\obj\Debug\WCSC.csprojResolveAssemblyReference.cache
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\WCSC.exe.config
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.exe
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.pdb
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\WCSC.exe
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\WCSC.pdb
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\EntityFramework.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\EntityFramework.xml
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.pdb
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.xml
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.csprojResolveAssemblyReference.cache
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.archive.resources
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Check_Connection_with_Controllers.resources
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Form1.resources
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Properties.Resources.resources
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Settings.resources
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.WeightDay.resources
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.WeightHour.resources
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.WeightInformation.resources
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.WeightMonth.resources
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.csproj.GenerateResource.Cache
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\RdlCompile.cache
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\RdlCompile.compiled
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Димка\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.PrintReport.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\WCSC.exe.config
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\WCSC.exe
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\WCSC.pdb
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\EntityFramework.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\EntityFramework.xml
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.pdb
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.xml
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.archive.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Check_Connection_with_Controllers.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Form1.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Login.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Properties.Resources.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Settings.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.WeightDay.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.WeightHour.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.WeightInformation.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.WeightMonth.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.csproj.GenerateResource.Cache
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\RdlCompile.cache
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\RdlCompile.compiled
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.exe
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.pdb
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.Report_Form_Print.resources
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.csprojResolveAssemblyReference.cache
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\WCSC.exe.manifest
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\bin\Debug\WCSC.application
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.exe.manifest
+C:\Users\Александра\Documents\GitHub\desktop-application\WCSC\obj\Debug\WCSC.application
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\WCSC.exe.config
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.exe
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.pdb
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\WCSC.exe.manifest
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\WCSC.application
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\WCSC.exe
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\WCSC.pdb
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\EntityFramework.dll
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.dll
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\LiveCharts.dll
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.dll
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.dll
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\EntityFramework.xml
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.xml
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\LiveCharts.pdb
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\LiveCharts.xml
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.pdb
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.xml
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.pdb
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.xml
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.resources.dll
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.csprojResolveAssemblyReference.cache
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.archive.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.Check_Connection_with_Controllers.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.Form1.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.Login.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.Properties.Resources.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.Report_Form_Print.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.Settings.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.WeightDay.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.WeightHour.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.WeightInformation.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.WeightMonth.resources
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.GenerateResource.Cache
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.exe.manifest
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.application
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.WCSC.exe.config
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\RdlCompile.cache
+D:\Союзцветметавтоматика\Конвейерные весы\13.02.17\desktop-application-master\WCSC\obj\Debug\RdlCompile.compiled
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\WCSC.exe.config
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.exe
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.pdb
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\WCSC.exe.manifest
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\WCSC.application
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\WCSC.exe
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\WCSC.pdb
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\EntityFramework.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\LiveCharts.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\EntityFramework.xml
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\LiveCharts.pdb
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\LiveCharts.xml
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.WCSC.exe.config
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.archive.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.Check_Connection_with_Controllers.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.Form1.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.Login.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.Properties.Resources.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.Report_Form_Print.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.Settings.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.WeightDay.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.WeightHour.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.WeightInformation.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.WeightMonth.resources
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.GenerateResource.Cache
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\RdlCompile.cache
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\RdlCompile.compiled
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.exe.manifest
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.application
+C:\Users\Александра\Desktop\desktop-application-master\WCSC\obj\Debug\WCSC.csprojResolveAssemblyReference.cache
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.exe.config
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.exe
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.pdb
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.exe.manifest
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.application
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.exe
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.pdb
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.dll
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.dll
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.dll
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.dll
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.dll
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.Common.dll
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.xml
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.xml
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.pdb
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.xml
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.pdb
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.xml
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.pdb
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.xml
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.resources.dll
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.csprojResolveAssemblyReference.cache
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.WCSC.exe.config
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.archive.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Check_Connection_with_Controllers.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Form1.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Login.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Properties.Resources.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Report_Form_Print.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Settings.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightDay.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightHour.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightInformation.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightMonth.resources
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.GenerateResource.Cache
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\RdlCompile.cache
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\RdlCompile.compiled
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.exe.manifest
+H:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.application
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.exe.config
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.exe
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.pdb
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.exe.manifest
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.application
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.exe
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.pdb
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.Common.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.SqlServer.Types.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.xml
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.xml
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.pdb
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.xml
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.pdb
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.xml
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.pdb
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.xml
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.csprojResolveAssemblyReference.cache
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.WCSC.exe.config
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.archive.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Check_Connection_with_Controllers.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Form1.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Login.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Properties.Resources.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Report_Form_Print.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Settings.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightDay.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightHour.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightInformation.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightMonth.resources
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.GenerateResource.Cache
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\RdlCompile.cache
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\RdlCompile.compiled
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.exe.manifest
+G:\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.application
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.exe.config
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.exe
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.pdb
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.exe.manifest
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.application
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.exe
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\WCSC.pdb
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.pdb
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.csprojResolveAssemblyReference.cache
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.archive.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Check_Connection_with_Controllers.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Form1.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Login.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Properties.Resources.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Report_Form_Print.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.Settings.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightDay.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightHour.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightInformation.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.WeightMonth.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.GenerateResource.Cache
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\RdlCompile.cache
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\RdlCompile.compiled
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.exe.manifest
+C:\Users\Александра\Desktop\lastLASTLASTVERS\desktop-application-master\WCSC\obj\Debug\WCSC.application
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\WCSC.exe.config
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\WCSC.exe.manifest
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\WCSC.application
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\WCSC.exe
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\WCSC.pdb
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\EntityFramework.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\LiveCharts.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\EntityFramework.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\LiveCharts.pdb
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\LiveCharts.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.csprojResolveAssemblyReference.cache
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.archive.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.Check_Connection_with_Controllers.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.Form1.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.Login.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.Properties.Resources.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.Report_Form_Print.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.Settings.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.WeightDay.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.WeightHour.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.WeightInformation.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.WeightMonth.resources
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.csproj.GenerateResource.Cache
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\RdlCompile.cache
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\RdlCompile.compiled
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.exe.manifest
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.application
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.exe
+C:\Users\Александра\Desktop\lastLASTLASTVERS — копия\desktop-application-master\WCSC\obj\Debug\WCSC.pdb
